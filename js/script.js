@@ -24,3 +24,9 @@ $(document).ready(function(){
      };
    };
  });
+
+ function tampilData(){
+  const telpon = document.getElementById("inputPhone").value;
+
+  alert("Ini adalah No Telpon " + telpon);
+ }
